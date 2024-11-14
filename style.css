@@ -1,0 +1,50 @@
+body {  
+    background-color: #818181;
+}  
+.navbar {  
+    background-color: #343a40; 
+}  
+
+.carousel {  
+    background-color: rgba(0, 0, 0, 0.5);
+}  
+
+.navbar {  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}  
+
+.sidebar {  
+    background-color: #495057;
+    border-right: 1px solid #ddd;  
+}  
+
+.card {  
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}  
+
+
+.card:hover {  
+    transform: scale(1.05);
+}  
+
+.carousel-item img {
+    max-width: 500px; 
+    max-height: 500px; 
+    width: auto; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 10px;
+}
+
+h5.card-title {  
+    font-size: 1.25rem;  
+    font-weight: bold;
+}  
+
+.card-text {  
+    color: #6c757d;
+}  
